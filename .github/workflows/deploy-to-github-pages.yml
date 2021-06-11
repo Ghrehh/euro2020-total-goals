@@ -17,7 +17,7 @@ jobs:
         run: |
           yarn install
           yarn getData
-          yarn build
+          PUBLIC_URL=https://ghrehh.github.io/euro2020-total-goals yarn build
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:

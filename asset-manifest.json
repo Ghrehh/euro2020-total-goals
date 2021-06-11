@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.c00d66c9.chunk.js",
-    "main.js.map": "/static/js/main.c00d66c9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.92306cc4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.92306cc4.js.map",
-    "static/js/2.2fe25cb9.chunk.js": "/static/js/2.2fe25cb9.chunk.js",
-    "static/js/2.2fe25cb9.chunk.js.map": "/static/js/2.2fe25cb9.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.2fe25cb9.chunk.js.LICENSE.txt": "/static/js/2.2fe25cb9.chunk.js.LICENSE.txt"
+    "main.js": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/main.c00d66c9.chunk.js",
+    "main.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/main.c00d66c9.chunk.js.map",
+    "runtime-main.js": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/runtime-main.45cd6974.js",
+    "runtime-main.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/runtime-main.45cd6974.js.map",
+    "static/js/2.2fe25cb9.chunk.js": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/2.2fe25cb9.chunk.js",
+    "static/js/2.2fe25cb9.chunk.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/2.2fe25cb9.chunk.js.map",
+    "index.html": "https://ghrehh.github.io/euro2020-total-goals/static/index.html",
+    "static/js/2.2fe25cb9.chunk.js.LICENSE.txt": "https://ghrehh.github.io/euro2020-total-goals/static/static/js/2.2fe25cb9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.92306cc4.js",
+    "static/js/runtime-main.45cd6974.js",
     "static/js/2.2fe25cb9.chunk.js",
     "static/js/main.c00d66c9.chunk.js"
   ]

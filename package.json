@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "NODE_PATH=./src react-scripts start",
+    "getData": "node getData.js",
     "build": "NODE_PATH=./src react-scripts build",
     "test": "NODE_PATH=./src react-scripts test"
   },

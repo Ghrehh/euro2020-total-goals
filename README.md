@@ -10,7 +10,8 @@ on GitHub to keep information up to date.
 
 ![how to deploy](how_to_deploy.png?raw=true "How to Deploy")
 
-Redeploying will update the goals data.
+Redeploying will update the goals data. Deploys can be triggered
+[here](https://github.com/Ghrehh/euro2020-total-goals/actions/workflows/deploy-to-github-pages.yml)
 
 # Updating other data
 

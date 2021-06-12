@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 const Card = ({ className, title, children, ...restProps }) => (
   <article {...restProps} className={cc(className, styles.card)}>
     <Pad>
-      <h2><Copy>{title}</Copy></h2>
+      <h3><Copy>{title}</Copy></h3>
       <Pad sides={{ top: "1x" }}>
         {children}
       </Pad>

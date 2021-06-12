@@ -1,0 +1,7 @@
+.entries {
+}
+
+.entriesInner {
+  display: flex;
+  gap: 6px 24px;
+}

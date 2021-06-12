@@ -32,7 +32,7 @@ export const goalsScored = finishedMatches.map(match => {
   }
 }).reduce((count, acc) => count + acc)
 
-export const averageGoalsPerGame = Math.round(goalsScored / finishedMatchesCount, 2);
+export const averageGoalsPerGame = (goalsScored / finishedMatchesCount).toFixed(2);
 export const projectedTotalGoals = Math.round(averageGoalsPerGame * totalMatchesCount);
 export const entries = potData.entries;
 export const entriesCount = potData.entries.length;

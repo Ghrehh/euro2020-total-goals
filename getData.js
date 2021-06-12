@@ -3,10 +3,12 @@ const fs = require('fs')
 
 const persistData = (jsonData) => {
   try {
-    fs.writeFileSync('src/data.json', JSON.stringify(jsonData, null, 2))
+    fs.writeFileSync('src/data/goals.json', JSON.stringify(jsonData, null, 2))
   } catch (err) {
     console.error(err)
   }
+  fs.writeFileSync('src/data/lastUpdated.json', JSON.stringify({ lastUpdated: new Date().toISOString()}, null, 2))
+
 };
 
 fetch(

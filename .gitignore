@@ -10,7 +10,8 @@
 
 # production
 /build
-src/data.json
+src/data/goals.json
+src/data/lastUpdated.json
 
 # misc
 .DS_Store

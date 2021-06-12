@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const Entries = () => (
   <section className={styles.entries}>
     <h2><Title>Entries</Title></h2>
-    <Pad size="2x" className={styles.entriesInner}>
+    <Pad size={4} className={styles.entriesInner}>
       {data.entries.map(entry => (
         <p><Copy>{entry}</Copy></p>
       ))}
@@ -15,4 +15,3 @@ const Entries = () => (
 )
 
 export default Entries;
-

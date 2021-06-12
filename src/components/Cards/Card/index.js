@@ -8,7 +8,7 @@ const Card = ({ className, title, children, ...restProps }) => (
   <article {...restProps} className={cc(className, styles.card)}>
     <Pad>
       <h3><Copy>{title}</Copy></h3>
-      <Pad sides={{ top: "1x" }}>
+      <Pad sides={{ top: 2 }}>
         {children}
       </Pad>
     </Pad>

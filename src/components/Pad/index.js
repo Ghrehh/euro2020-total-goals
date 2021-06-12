@@ -1,25 +1,25 @@
 import PropTypes from 'prop-types';
 
-const sizes = ["1x", "2x"];
+const unitSize = 6;
+const paddingForSize = (size) => `${unitSize * size}px`;
 
 const Pad = ({ size, sides, children, ...restProps }) => {
-  const styles = {}
-  let initialSize = '12px';
-  if (size === '2x') {
-    initialSize = '24px';
+  const styles = {
+    paddingTop: !sides ? paddingForSize(size) : 0,
+    paddingRight: !sides ? paddingForSize(size): 0,
+    paddingBottom: !sides ? paddingForSize(size) : 0,
+    paddingLeft: !sides ? paddingForSize(size): 0
   }
 
-  Object.keys(sides).forEach(key => {
-    const value = sides[key];
-    const capitalize = (string) => {
-      return string.charAt(0).toUpperCase() + string.slice(1);
-    }
-    let paddingSize = initialSize;
-    if (value === '2x') {
-      paddingSize = '24px';
-    }
-    styles[`padding${capitalize(key)}`] = paddingSize;
-  });
+  if (sides !== undefined) {
+    Object.keys(sides).forEach(key => {
+      const value = sides[key];
+      const capitalize = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      styles[`padding${capitalize(key)}`] = paddingForSize(value);
+    });
+  }
 
   return (
     <div
@@ -32,24 +32,19 @@ const Pad = ({ size, sides, children, ...restProps }) => {
 }
 
 Pad.propTypes = {
-  size: PropTypes.oneOf(sizes),
+  size: PropTypes.number,
   sides: PropTypes.shape({
-    top: PropTypes.oneOf(sizes),
-    right: PropTypes.oneOf(sizes),
-    bottom: PropTypes.oneOf(sizes),
-    left: PropTypes.oneOf(sizes),
+    top: PropTypes.number,
+    right: PropTypes.number,
+    bottom: PropTypes.number,
+    left: PropTypes.number,
   }),
   children: PropTypes.node
 }
 
 Pad.defaultProps = {
-  size: '1x',
-  sides: {
-    top: "1x",
-    right: "1x",
-    bottom: "1x",
-    left: "1x"
-  },
+  size: 2,
+  sides: undefined,
   children: null
 }
 

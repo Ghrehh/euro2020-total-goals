@@ -1,8 +1,8 @@
-.entries {
+.entry {
+  margin: 4px 12px;
 }
 
 .entriesInner {
   flex-wrap: wrap;
   display: flex;
-  gap: 8px 24px;
 }

@@ -16,12 +16,8 @@ function App() {
         <div className={styles.spacer} />
       </Pad>
       <main>
-        <Pad size={4}>
-          <Cards />
-        </Pad>
-        <Pad size={4}>
-          <Entries />
-        </Pad>
+        <Cards />
+        <Entries />
       </main>
       <footer>
       </footer>

@@ -20,13 +20,13 @@ const Cards = () => (
         </p>
       </Card>
 
-      <Card className={styles.card} title="Goals per game">
+      <Card className={styles.card} title="Avg. goals per game">
         <p>
           <Impact>{data.averageGoalsPerGame}</Impact>
         </p>
       </Card>
 
-      <Card className={styles.card} title="Projected goals">
+      <Card className={styles.card} title="Projected total goals">
         <p>
           <Impact>{data.projectedTotalGoals}</Impact>
         </p>

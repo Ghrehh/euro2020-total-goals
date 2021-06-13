@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "https://ghrehh.github.io/euro2020-total-goals/static/css/main.b2cdb471.chunk.css",
-    "main.js": "https://ghrehh.github.io/euro2020-total-goals/static/js/main.97a82301.chunk.js",
-    "main.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/js/main.97a82301.chunk.js.map",
+    "main.css": "https://ghrehh.github.io/euro2020-total-goals/static/css/main.236eefd3.chunk.css",
+    "main.js": "https://ghrehh.github.io/euro2020-total-goals/static/js/main.94cc5d4b.chunk.js",
+    "main.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/js/main.94cc5d4b.chunk.js.map",
     "runtime-main.js": "https://ghrehh.github.io/euro2020-total-goals/static/js/runtime-main.357c122a.js",
     "runtime-main.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/js/runtime-main.357c122a.js.map",
     "static/js/2.ecd71167.chunk.js": "https://ghrehh.github.io/euro2020-total-goals/static/js/2.ecd71167.chunk.js",
     "static/js/2.ecd71167.chunk.js.map": "https://ghrehh.github.io/euro2020-total-goals/static/js/2.ecd71167.chunk.js.map",
     "index.html": "https://ghrehh.github.io/euro2020-total-goals/index.html",
-    "static/css/main.b2cdb471.chunk.css.map": "https://ghrehh.github.io/euro2020-total-goals/static/css/main.b2cdb471.chunk.css.map",
+    "static/css/main.236eefd3.chunk.css.map": "https://ghrehh.github.io/euro2020-total-goals/static/css/main.236eefd3.chunk.css.map",
     "static/js/2.ecd71167.chunk.js.LICENSE.txt": "https://ghrehh.github.io/euro2020-total-goals/static/js/2.ecd71167.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.357c122a.js",
     "static/js/2.ecd71167.chunk.js",
-    "static/css/main.b2cdb471.chunk.css",
-    "static/js/main.97a82301.chunk.js"
+    "static/css/main.236eefd3.chunk.css",
+    "static/js/main.94cc5d4b.chunk.js"
   ]
 }

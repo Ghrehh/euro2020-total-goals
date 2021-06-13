@@ -9,7 +9,7 @@ function App() {
     <>
       <header>
         <Pad size={4}>
-          <h1><Impact>Euro 2020 Total Goals Competition</Impact></h1>
+          <h1><Impact>Newington FC - Euro 2020 Total Goals Competition</Impact></h1>
         </Pad>
       </header>
       <Pad sides={{ left: 4, right: 4 }}>
